@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KimTasker</title>
+    <link rel="stylesheet" href="./trello.css">
+    <script src="./trello.js"></script>
+</head>
+<body>
+    <header>
+        <h1>TaskBoard</h1>
+    </header>
+    <section class="colums">
+        <div class="first-column" id="awd">
+            <h2>Задачи</h2>
+            <hr/>
+            <section class='first-section' id='first-section'>
+                <!--
+                <div class="task" draggable="true">
+                    <p class='task'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus hic sapiente velit. Tempora alias nostrum sint, sed ut autem dolores, numquam aliquam reiciendis repellat modi odio ullam earum! Quaerat.</p>
+                    <button class="del">del</button>
+                </div>
+                -->
+            </section>
+            <button type="submit" class="add-task" id="add-task" onclick=on_click_add_task()>Добавить задачу</button>
+            <div class="enter-task" id="enter-task">
+                <textarea name="enter-task" id="textarea_to_dush" cols="33" rows="3"></textarea>
+                <div class="buttons-in-hidden-enter">
+                    <button class="add-task" id="add-in-hidden-enter">Добавить</button>
+                    <button class="add-task" id="hidden-enter">Скрыть</button>
+                </div>
+            </div>
+        </div>
+        <div class="second-column">
+            <h2>Выполняются</h2>
+            <hr/>
+            <section class="second-section" >
+            </section>
+            <button class="add-task to-finish">Отправить все в выполненые</button>
+        </div>
+        <div class="third-column">
+            <h2>Выполнены</h2>
+            <hr/>
+            <section class="third-section">
+            </section>
+            <button class="add-task del-complete">Удалить выполненые</button>
+        </div>
+    </section>
+    <footer>
+        <p>ByKimSergey</p>
+    </footer>
+</body>
+</html>
