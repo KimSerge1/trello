@@ -27,8 +27,9 @@ h1{
     height: 40px;
     font-size: 60px;
     -moz-user-select: none;
-    -khtml-user-select: none;
-    user-select: none;    
+    -webkit-user-select: none;
+        -ms-user-select: none;
+            user-select: none;    
 }
 hr{
     color: #D9B373;
@@ -36,8 +37,9 @@ hr{
 h2{
     color: black;
     -moz-user-select: none;
-    -khtml-user-select: none;
-    user-select: none;    
+    -webkit-user-select: none;
+        -ms-user-select: none;
+            user-select: none;    
 }
 /*section*/
 .colums div>section{
@@ -98,9 +100,9 @@ textarea{
 }
 .buttons-in-hidden-enter>button:nth-of-type(1){
     float: left;
-    margin-left: 25%;
+    margin-left: 21%;
 }
 .buttons-in-hidden-enter>button:nth-of-type(2){
     float: right;
-    margin-right: 25%;
+    margin-right: 21%;
 }
